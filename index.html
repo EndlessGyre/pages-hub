@@ -12,11 +12,15 @@
 </head>
 
 <body>
+    <header>
     <h1>Games</h1>
-    <img src="img/vapor.jpg" alt="Vaporwave aesthetic girl" title="Aesthetic" width="275" height="183">
-
-    <hr>
-    <nav>
+    
+    <figure>
+        <img src="img/vapor.jpg" alt="Vaporwave aesthetic girl" title="Aesthetic" width="275" height="183">
+        <figcaption>Dead Mall Girl</figcaption>
+    </figure>
+    
+    <nav aria-label="primary-navigation">
         <ul>
             <li>
                 <a href="#checkers">Play Checkers</a>
@@ -27,17 +31,23 @@
             <li>
                 <a href="#webdev">Web Development</a>
             </li>
-
         </ul>
 
     </nav>
+    </header>
     <hr>
     
-    <section id="checkers">
+    <main>
+    <article id="checkers">
         <h2>Checkers!</h2>
-        <img src="img/kirk screams.jpg" alt="Screaming Captain Kirk" title="YAAAAEEEEHHHH" width="251" height="201">
+        <figure>
+            <img src="img/kirk-screams.jpg" alt="Screaming Captain Kirk" title="YAAAAEEEEHHHH" width="251" height="201">
+            <figcaption>Captain Kirk Screams</figcaption>
+        </figure>
         <p>Enjoy the thrill of <a href="https://endlessgyre.github.io/checkers/" target="_blank">Checkers!</a></p>
         <p>Disclaimer: It doesn't work yet.</p>
+        <section>
+        <h3>Success Path</h3>
         <p>Here's what I need to do to get it working for real:</p>
         <ol>
             <li>Log the effect on <em>cells</em> variable as game progresses</li>
@@ -45,26 +55,49 @@
             <li>Compare with original code</li>
         </ol>
     </section>
+    </article>
     
     <hr>
 
-    <section id="games">
+    <article id="games">
         <h2>More Games to Come Soon</h2>
-        <img src="img/TNG_Wesley_TheGame.jpg" alt="Shut up, Wesley" Title="Watch this space" width="396" height="313" loading="lazy">
+        <figure>
+            <img src="img/TNG_Wesley_TheGame.jpg" alt="Shut up, Wesley" Title="Watch this space" width="396" height="313" loading="lazy">   
+            <figcaption>Wesley does it the hard way</figcaption>
+        </figure>
         <p>Including:</p>
         <ul>
             <li>Pung</li>
             <li>Spaghetti Bros</li>
             <li>Rock Shooter</li>
         </ul>
+        <aside>
+            <details>
+                <summary>
+                    <mark>Five days per week</mark> I'm working on my games.
+                </summary>
+                <p>Things are getting easier all that time.</p>
+            </details>
+        </aside>
         
         <p>Thanks to <em>Phaser.js</em> and <em>GitHub Pages</em> for making this all possible.</p>
-    </section>
+        <figure>
+            <figcaption>An example:</figcaption>
+            <p>
+                <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+            
+        </figure>
+    </article>
     
     <hr>
     
-    <section id="webdev">
-        <h2>HTML + CSS + JavaScript</h2>    
+    <article id="webdev">
+        <h2>HTML + CSS + JavaScript</h2>  
+        <figure> 
+            <img src="img/F8098B8BB5E9F67B9386B6_Large.jpg" alt="Dr. Steve Brule" title="Dr. Brule" width="400" height="300" loading="lazy"> 
+            <figcaption>Dr. Stever Brule</figcaption>
+        </figure>
         <p>With our powers combined, we can give you a responsive and modern web experience--for your health!</p>
         <dl>
             <dt>HTML</dt>
@@ -73,13 +106,16 @@
             <dd>Makin' it pretty.</dd>
 
         </dl>
-    </section>
+    </article>
+    </main>
     <hr>
 
         <!-- TODO: Be Good. -->
-
-
+<footer>
+<p>
 &lt;&lt;&lt; &copy; 2022 <a href="about.html" title="About Me">Josh Rahn, Inc.</a> &gt;&gt;&gt;
+</p>
 <p><a href="#">Back to Top</a></p>
+</footer>
 </body>
 </html>
