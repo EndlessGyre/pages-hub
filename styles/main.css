@@ -85,7 +85,33 @@ body{
     text-decoration: none;    
 }
 
+.bg-purple{
+    background-color: #981575;
+}
 
+.border-rounded{
+    border-radius: 500px;
+}
+
+.font-700{
+    font-weight: 700;
+}
+
+.font-sm{
+    font-size: 14px;
+}
+
+.letter-space{
+    letter-spacing: 1px;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.h-full{
+    height: 100%;
+}
 
 
 /* html{
