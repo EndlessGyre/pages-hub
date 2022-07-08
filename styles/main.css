@@ -1,4 +1,94 @@
-html{
+.bg-gray-900{
+    background-color: #121826;
+}
+
+.text-white{
+    color: white;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.block{
+    display: block;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.inline{
+    display: inline;
+}
+
+.hidden{
+    display: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.m-8{
+    margin: 8px;
+}
+
+.p-16y{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.p-24x{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.p-8y{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.p-16x{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.no-underline{
+    text-decoration: none;    
+}
+
+
+
+
+/* html{
     font-size: 22px;
 }
 
@@ -17,4 +107,4 @@ a:visited{
 
 a:hover, a:active{
     color: #eee;
-}
+} */
