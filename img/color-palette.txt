@@ -1,0 +1,6 @@
+Palette:
+Orangey: f29a43
+yellowy: fff874
+sunshine: fff9c2
+bluish: 5f7bc4
+purplish:  981575
