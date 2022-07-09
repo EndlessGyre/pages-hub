@@ -11,6 +11,7 @@ body{
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+    background-color: #7A84AA;
 }
 
 .block{
@@ -61,6 +62,10 @@ body{
     margin: 8px;
 }
 
+.m-50r{
+    margin-right: 50px;
+}
+
 .p-16y{
     padding-top: 16px;
     padding-bottom: 16px;
@@ -101,6 +106,10 @@ body{
     font-size: 14px;
 }
 
+.font-header{
+    font-size: 32px;
+}
+
 .letter-space{
     letter-spacing: 1px;
 }
@@ -111,6 +120,14 @@ body{
 
 .h-full{
     height: 100%;
+}
+
+.relative{
+    position: relative;
+}
+
+.cover{
+    object-fit: cover;
 }
 
 
