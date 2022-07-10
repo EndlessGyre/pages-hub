@@ -11,7 +11,7 @@ body{
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
-    background-color: #7A84AA;
+    /* background-color: #7A84AA; */
 }
 
 .block{
